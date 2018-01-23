@@ -28,7 +28,7 @@ class EndpointsAsyncTask extends AsyncTask<Context, Void, String> {
                     new AndroidJsonFactory(), null)
 
 
-                  //  .setRootUrl("http://10.0.2.2:8080/_ah/api/")
+                    .setRootUrl("http://10.0.2.2:8080/_ah/api/")
                     .setGoogleClientRequestInitializer(new GoogleClientRequestInitializer() {
                         @Override
                         public void initialize(AbstractGoogleClientRequest<?> abstractGoogleClientRequest)
@@ -55,7 +55,7 @@ class EndpointsAsyncTask extends AsyncTask<Context, Void, String> {
         //Toast.makeText(context, result, Toast.LENGTH_LONG).show();
         updateUI();
         context.startActivity(new Intent(context, JokeActivity.class)
-                .putExtra(JOKE_EXTRA, JokeTellingClass.joke1()));
+                .putExtra(JOKE_EXTRA, result));
     }
 
     @Override

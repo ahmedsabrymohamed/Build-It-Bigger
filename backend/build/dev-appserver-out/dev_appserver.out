@@ -1,0 +1,8 @@
+Warning: Google App Engine Java 7 runtime is deprecated.
+Warning: See https://cloud.google.com/appengine/docs/deprecations/java7
+Jan 23, 2018 8:00:32 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value '/home/mine/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/home/mine/Desktop/ud867-master/FinalProject/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
+
+************************************************
+Could not open the requested socket: Address already in use
+Try overriding --address and/or --port.
